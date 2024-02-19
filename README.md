@@ -1,6 +1,6 @@
 Name : Pawandeep Kaur Student id : W0747058@myscc.ca
 
-#Successfully insatlled noide.js and run commands #Created a public repo on github as per instruction. ADI_BHOITE_WEB601Assignments_Myfavouritecars.
+#Successfully insatlled noide.js and run commands #Created a public repo on github as per instruction. P_Kaur_WEB601Assignments_Myfavouritedresses.
 
 Setted the version of application to 0.0.1 in the package.json
 
