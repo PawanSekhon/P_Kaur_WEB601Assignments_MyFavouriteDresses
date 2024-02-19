@@ -17,6 +17,6 @@ export class ContentCardComponent implements OnInit {
   ngOnInit(): void {}
 
   handleClick(contentLog: Content): void {
-    console.log(`ID: ${contentLog.id}, TITLE: ${contentLog.title}`);
+    console.log(`id: ${contentLog.id}, title: ${contentLog.title}`);
   }
 }
