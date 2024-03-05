@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MyFavouriteDress": {
+    "MyFavouriteDresses": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/my-favourite-dress",
+            "outputPath": "dist/P-Kaur-my-favourite-dresses",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "MyFavouriteDress:build:production"
+              "buildTarget": "MyFavouriteDresses:build:production"
             },
             "development": {
-              "buildTarget": "MyFavouriteDress:build:development"
+              "buildTarget": "MyFavouriteDresses:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "MyFavouriteDress:build"
+            "buildTarget": "MyFavouriteDresses:build"
           }
         },
         "test": {
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

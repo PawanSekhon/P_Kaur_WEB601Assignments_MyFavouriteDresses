@@ -28,15 +28,15 @@ export class ContentList {
             return `<div> ${errMsg} </div>`;
         }
         else {
-
+            
             var title = contentItem.title;
             var description = contentItem.description;
-            var imgURL = contentItem.imgUrl;
+            var imgURL = contentItem.imgURL;
             var creator = contentItem.creator;
             var type = contentItem.type;
             var tags = contentItem.tags;
             var imgTag = imgURL ? `<img src="${imgURL}" alt="${title}">` : '';
-
+        
             return `<div> <h3>${title}</h3> <p>${description}</p> <p>Creator: ${creator}</p> ${imgTag} <p>Type: ${type}</p> <p> Tags: ${tags} </p> </div><hr/>`;
 
         }
